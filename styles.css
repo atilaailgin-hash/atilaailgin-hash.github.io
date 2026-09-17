@@ -999,7 +999,7 @@ textarea:focus {
 
 footer {
   display: grid;
-  grid-template-columns: 0.65fr 1.35fr auto;
+  grid-template-columns: 1fr auto;
   gap: 45px;
   align-items: center;
   margin-top: 50px;
@@ -1019,10 +1019,6 @@ footer div strong {
   font-family: var(--serif);
   font-size: 15px;
   font-weight: 500;
-}
-
-footer p {
-  margin: 0;
 }
 
 .toast {
