@@ -553,8 +553,9 @@ blockquote {
   background: var(--wine);
   border-radius: 50%;
   font-family: var(--serif);
-  font-size: 19px;
-  letter-spacing: 0.04em;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .language-service h3 {
@@ -1170,7 +1171,7 @@ footer div strong {
   .service-grid { margin-bottom: 24px; }
   .service-card { padding: 34px 18px; }
   .language-service { grid-template-columns: 82px 1fr; gap: 18px; margin-bottom: 80px; padding: 22px 18px; }
-  .language-service-mark { width: 68px; height: 68px; font-size: 15px; }
+  .language-service-mark { width: 68px; height: 68px; font-size: 13px; }
   .language-service h3 { font-size: 22px; }
   .approach-explorer { margin: 0 -20px; }
   .explorer-intro,
