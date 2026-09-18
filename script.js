@@ -166,7 +166,7 @@ document.querySelector("#contact-form").addEventListener("submit", async (event)
     ? [
         "Hello Ilgın,",
         "",
-        `My name is ${data.get("name")}. I am getting in touch about ${data.get("service")}.`,
+        `My name is ${data.get("name")}. I am getting in touch to request information.`,
         "",
         data.get("message"),
         "",
@@ -175,7 +175,7 @@ document.querySelector("#contact-form").addEventListener("submit", async (event)
     : [
         "Merhaba Ilgın Hanım,",
         "",
-        `Ben ${data.get("name")}. ${data.get("service")} hakkında iletişime geçiyorum.`,
+        `Ben ${data.get("name")}. Bilgi almak için iletişime geçiyorum.`,
         "",
         data.get("message"),
         "",
