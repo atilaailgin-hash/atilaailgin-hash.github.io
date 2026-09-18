@@ -682,7 +682,7 @@ blockquote {
 
 .method-note {
   display: grid;
-  grid-template-columns: 54px 1fr;
+  grid-template-columns: 112px 1fr;
   gap: 16px;
   padding: 11px 0;
   border-top: 1px solid rgba(255,255,255,0.1);
@@ -775,7 +775,15 @@ blockquote {
 }
 
 .about-copy h2 {
-  margin-bottom: 27px;
+  margin-bottom: 8px;
+}
+
+.about-copy .professional-title {
+  margin: 0 0 27px;
+  color: var(--wine);
+  font-size: 13px;
+  font-weight: 750;
+  letter-spacing: 0.035em;
 }
 
 .about-copy > p:not(.eyebrow) {
@@ -1130,6 +1138,7 @@ footer div strong {
 
 @media (max-width: 980px) {
   .site-header { padding-right: 26px; padding-left: 26px; }
+  .brand small { display: none; }
   nav { gap: 18px; }
   .hero { grid-template-columns: 1fr; padding: 75px 42px 100px; }
   .hero-copy { max-width: 760px; }
